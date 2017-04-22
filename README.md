@@ -1,4 +1,7 @@
-# test coverage for  [blocked (v1.2.1)](https://github.com/visionmedia/node-blocked#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-blocked.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-blocked) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-blocked.svg)](https://travis-ci.org/npmtest/node-npmtest-blocked)
+# npmtest-blocked
+
+#### basic test coverage for  [blocked (v1.2.1)](https://github.com/visionmedia/node-blocked#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-blocked.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-blocked) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-blocked.svg)](https://travis-ci.org/npmtest/node-npmtest-blocked)
+
 #### check if the event loop is blocked
 
 [![NPM](https://nodei.co/npm/blocked.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/blocked)
@@ -80,7 +83,8 @@
         "coverage": "./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- 'test.js'",
         "test": "./node_modules/mocha/bin/mocha"
     },
-    "version": "1.2.1"
+    "version": "1.2.1",
+    "bin": {}
 }
 ```
 
